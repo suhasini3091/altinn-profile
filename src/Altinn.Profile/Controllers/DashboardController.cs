@@ -57,6 +57,7 @@ namespace Altinn.Profile.Controllers
                 throw new InvalidOperationException("Indecisive organization result");
             }
 
+            // added a new test above to ensure only one organization is returned
             var organization = organizations.First();
             var notificationAddresses = organization.NotificationAddresses;
 
