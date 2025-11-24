@@ -58,6 +58,7 @@ namespace Altinn.Profile.Controllers
             }
 
             // added a new test above to ensure only one organization is returned
+            // added a new test again
             var organization = organizations.First();
             var notificationAddresses = organization.NotificationAddresses;
 
